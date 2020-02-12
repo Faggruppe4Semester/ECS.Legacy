@@ -3,8 +3,8 @@
     public class ECS
     {
         private int _threshold;
-        private ITempSensor _tempSensor { get; set; }
-        private IHeater _heater { get; set; }
+        public ITempSensor _tempSensor { get; set; }
+        public IHeater _heater { get; set; }
 
         public ECS(int thr)
         {

@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.Legacy_Constructor_Inje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.Legacy_Property_Injection", "ECS.Legacy_Property_Injection\ECS.Legacy_Property_Injection.csproj", "{DD5BC451-0155-40F5-AC0E-7D1B670ADCC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_Constructor_Injection", "UnitTest_Constructor_Injection\UnitTest_Constructor_Injection.csproj", "{97D23759-2090-44E2-B213-2BE57CFBE224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest_Constructor_Injection", "UnitTest_Constructor_Injection\UnitTest_Constructor_Injection.csproj", "{97D23759-2090-44E2-B213-2BE57CFBE224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_Property_Injection", "UnitTest_Property_Injection\UnitTest_Property_Injection.csproj", "{892B5CF4-601A-4AE3-8B15-F859B5D749D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{97D23759-2090-44E2-B213-2BE57CFBE224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D23759-2090-44E2-B213-2BE57CFBE224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97D23759-2090-44E2-B213-2BE57CFBE224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892B5CF4-601A-4AE3-8B15-F859B5D749D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892B5CF4-601A-4AE3-8B15-F859B5D749D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892B5CF4-601A-4AE3-8B15-F859B5D749D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892B5CF4-601A-4AE3-8B15-F859B5D749D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
