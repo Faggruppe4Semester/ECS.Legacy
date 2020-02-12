@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.Legacy_Constructor_Inje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.Legacy_Property_Injection", "ECS.Legacy_Property_Injection\ECS.Legacy_Property_Injection.csproj", "{DD5BC451-0155-40F5-AC0E-7D1B670ADCC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_Constructor_Injection", "UnitTest_Constructor_Injection\UnitTest_Constructor_Injection.csproj", "{97D23759-2090-44E2-B213-2BE57CFBE224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{DD5BC451-0155-40F5-AC0E-7D1B670ADCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD5BC451-0155-40F5-AC0E-7D1B670ADCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD5BC451-0155-40F5-AC0E-7D1B670ADCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D23759-2090-44E2-B213-2BE57CFBE224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D23759-2090-44E2-B213-2BE57CFBE224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D23759-2090-44E2-B213-2BE57CFBE224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D23759-2090-44E2-B213-2BE57CFBE224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

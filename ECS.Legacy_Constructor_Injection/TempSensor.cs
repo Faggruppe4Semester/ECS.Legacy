@@ -8,7 +8,7 @@ namespace ECS.Legacy
         bool RunSelfTest();
     }
 
-    internal class TempSensor : ITempSensor
+    public class TempSensor : ITempSensor
     {
         private Random gen = new Random();
 
@@ -23,7 +23,7 @@ namespace ECS.Legacy
         }
     }
 
-    internal class StubTempSensor : ITempSensor
+    public class StubTempSensor : ITempSensor
     {
         private int _gen = 10;
         
